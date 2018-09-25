@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.davadose.DoctorSignup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Doctor"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:padding="8dp"
+                android:textSize="35sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+            <EditText
+                android:id="@+id/drFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000" />
+            <EditText
+                android:id="@+id/drEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email address"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <EditText
+                android:id="@+id/drPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No."
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <EditText
+                    android:id="@+id/drAge"
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:hint="Age"
+                    android:layout_alignParentLeft="true"
+                    android:textCursorDrawable="@null"
+                    android:textColor="#000000"/>
+                <Spinner
+                    android:id="@+id/gender"
+                    android:layout_width="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"/>
+            </RelativeLayout>
+            <EditText
+                android:id="@+id/drId"
+                android:layout_height="wrap_content"
+                android:layout_width="140dp"
+                android:hint="ID"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <EditText
+                android:id="@+id/drOrg"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Organisation"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Private Clinic?"
+                    android:textSize="18sp"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/pcy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Yes"/>
+                    <RadioButton
+                        android:id="@+id/pcn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"/>
+                </RadioGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/privateClinic"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/prcName"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="Clinic Name"
+                    android:layout_margin="5dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/prcAdd"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="Clinic Address"
+                    android:layout_margin="5dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/prPNo"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="Clinic phone no"
+                    android:layout_margin="5dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/doctorSignupSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"
+                android:text="Submit"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

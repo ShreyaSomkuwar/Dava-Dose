@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "737845652174",
+    "firebase_url": "https://davadose-2a634.firebaseio.com",
+    "project_id": "davadose-2a634",
+    "storage_bucket": "davadose-2a634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737845652174:android:82ac172dbc4629bd",
+        "android_client_info": {
+          "package_name": "com.example.android.davadose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737845652174-5204gdoa154rbde4fencq5u9vbndkofh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.davadose",
+            "certificate_hash": "9fb01553294ae18e55bb9b803810aed4136edfda"
+          }
+        },
+        {
+          "client_id": "737845652174-9vrrg3e2n1o100b3lsi5sarsa2div55l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAykTFu3uvzjhOxVE0z4Ehzt1JeWYzZNrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737845652174-9vrrg3e2n1o100b3lsi5sarsa2div55l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

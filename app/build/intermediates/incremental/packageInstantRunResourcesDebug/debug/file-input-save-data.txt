@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jun 06 12:44:26 IST 2018
+0.baseType=DIRECTORY
+0.base=E\:\\AndroidProjects\\DavaDose\\app\\build\\intermediates\\assets\\debug
+0.path=crashlytics-build.properties
+0.set=ASSET
+count=1

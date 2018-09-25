@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.davadose.PatientSignupOne">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Patient"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:padding="8dp"
+                android:textSize="35sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+            <EditText
+                android:id="@+id/PFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000" />
+            <EditText
+                android:id="@+id/Pdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DOB : dd-mm-yyyy"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <EditText
+                android:id="@+id/PPhN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textCursorDrawable="@null"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <!--<EditText
+                    android:id="@+id/drAge"
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:hint="Age"
+                    android:layout_alignParentLeft="true"
+                    android:textCursorDrawable="@null"
+                    android:textColor="#000000"/>-->
+                <!--<TextView
+                    android:id="@+id/t_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DOB:  "
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"/>
+                <Button
+                    android:id="@+id/dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:onClick="showTimePickerDialog" />-->
+                <!--<Spinner
+
+                    android:id="@+id/genderP"
+                    android:layout_width="115dp"
+                    android:padding="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"/>-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/patientSignupOneNext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
